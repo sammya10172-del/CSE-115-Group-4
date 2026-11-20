@@ -43,6 +43,19 @@ This project uses basic C programming concepts, including:
 - Loops and switch statements to run the menu
 - File handling to save and read transaction data
 
+## Files
+
+- main.c contains the program.
+- data/transactions.txt and data/days.txt are created to save information.
+- data/transactions.csv is created when CSV export is selected.
+
+Keep the data folder in the program's working folder. On the first run, the program asks for starting wallet cash. Date and time are filled from the computer clock.
+
+## Run with Code::Blocks
+
+Open a C console project, add main.c, and choose **Build and Run**. Use the GCC/MinGW compiler included with Code::Blocks. The program uses standard C libraries.
+
+
 ## Project Summary
 
 The Daily Expense Tracker and Cash Balance Manager is a console-based C program for recording daily income and expenses. It helps the user track cash and digital payments separately, calculate the remaining wallet balance, and keep transaction records in a file.
